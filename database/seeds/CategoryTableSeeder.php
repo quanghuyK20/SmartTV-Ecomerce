@@ -15,28 +15,28 @@ class CategoryTableSeeder extends Seeder
     public function run()
     {
         Category::create([
-            'name' => 'Laptops',
-            'slug' => 'laptops'
+            'name' => 'Smart Tivi',
+            'slug' => 'smarttivi'
         ]);
         Category::create([
-            'name' => 'Desktops',
-            'slug' => 'desktops'
+            'name' => 'Tivi OLED',
+            'slug' => 'tivioled'
         ]);
         Category::create([
-            'name' => 'Phones',
-            'slug' => 'phones'
+            'name' => 'Google Tivi',
+            'slug' => 'googletivi'
         ]);
         Category::create([
-            'name' => 'Tablets',
-            'slug' => 'tablets'
+            'name' => 'Tivi Android',
+            'slug' => 'tiviandroid'
         ]);
         Category::create([
-            'name' => 'TVs',
-            'slug' => 'tvs'
+            'name' => 'Tivi NanoCell',
+            'slug' => 'tivinanocell'
         ]);
         Category::create([
-            'name' => 'Cameras',
-            'slug' => 'cameras'
+            'name' => 'Tivi Mini LED',
+            'slug' => 'tiviminiled'
         ]);
 
     }
