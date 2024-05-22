@@ -7,7 +7,7 @@
     <div class="row" style="margin-bottom: 3em">
         <div class="col-md-4 product-image">
             <div>
-                <img src="{{ productImage($product->image) }}" width="100%" height="100%" id="current-image">
+                <img src="{{ productImage($product->image) }}" width="120px" height="150px" style="height: 450px; width: 450px" id="current-image">
             </div>
             <div class="image-thumbnails">
                 @if ($images)
